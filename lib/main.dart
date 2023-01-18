@@ -32,7 +32,7 @@ List<Meal> _favoriteMeals = [];
 
 void _toggleFavorite(String mealId){
  final existingIndex = _favoriteMeals.indexWhere((meal) => meal.id == mealId);
- if (existingIndex > 0){
+ if (existingIndex >= 0){
   setState(() {
     _favoriteMeals.removeAt(existingIndex);
   });}
