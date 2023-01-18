@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:meals_app/models/meal.dart';
+import '../models/meal.dart';
 import '../screens/category_meals_screen.dart';
-import 'package:meals_app/screens/category_screen.dart';
-import 'package:meals_app/screens/favorites_screen.dart';
-import 'package:meals_app/widgets/main_drawer.dart';
+import '../screens/category_screen.dart';
+import '../screens/favorites_screen.dart';
+import '../widgets/main_drawer.dart';
 
 class TabsScreen extends StatefulWidget {
   List<Meal> favoriteMeals;

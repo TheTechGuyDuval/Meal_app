@@ -1,7 +1,7 @@
 
 
 import 'package:flutter/Material.dart';
-import 'package:meals_app/models/meal.dart';
+import '../models/meal.dart';
 
 import '../widgets/meal_item.dart';
 
